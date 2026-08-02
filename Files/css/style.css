@@ -11,3 +11,30 @@
 
     z-index: -1;
 }
+
+#main-text{
+    font-family: 'Anton', sans-serif;
+    opacity: 0.8;
+
+    -webkit-text-stroke: 0.5px #e8e8e8;
+
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5);    
+
+    h1{
+        font-size: clamp(60px,10vw,175px); 
+        margin-bottom: 2px;
+    }
+
+    h2{ 
+        font-size: clamp(20px,5vw,50px); 
+        margin-left: 20px; 
+        margin-top: 0px; 
+        margin-bottom: 2px;
+    }
+
+    h3{
+        font-size: clamp(16px,3vw,25px); 
+        margin-left: 20px; 
+        margin-top: 0px;
+    }
+}
