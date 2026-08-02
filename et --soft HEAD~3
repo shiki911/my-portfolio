@@ -1,0 +1,178 @@
+[33mcommit a1a5d5342f334f3f1697bb98b8d21d25aaa52c1c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sun Aug 2 23:28:56 2026 +0700
+
+    Fix the issue with the video file and update the index.html accordingly.
+
+ Files/video/Amiya-1.mp4 | Bin [31m40639601[m -> [32m0[m bytes
+ index.html              |   2 [32m+[m[31m-[m
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 8217a5b1d9adeeba7f1b56cc0e0141af2d425e4f[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sun Aug 2 23:22:13 2026 +0700
+
+    Fixing files sizes
+
+ Files/css/style.css     |  43 [32m++++++++++++++++++++++[m[31m---------------------[m
+ Files/video/Amiya-1.mp4 | Bin [31m198936543[m -> [32m40639601[m bytes
+ index.html              |   2 [32m+[m[31m-[m
+ 3 files changed, 23 insertions(+), 22 deletions(-)
+
+[33mcommit d2813d78be8f61d7cd7988292874d63d5d8605cb[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sun Aug 2 23:01:24 2026 +0700
+
+    Changes to index page and css file. Added a video background and changed the text color to white. Also added a favicon to the page.
+
+ Files/css/style.css     |  26 [32m++++++++++++++++++++++++++[m
+ Files/video/Amiya-1.mp4 | Bin [31m0[m -> [32m198936543[m bytes
+ index.html              |  19 [32m++++++++++++[m[31m-------[m
+ 3 files changed, 38 insertions(+), 7 deletions(-)
+
+[33mcommit f10b18bec1ba7df055455a8ad65d90640476f085[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sun Aug 2 22:26:15 2026 +0700
+
+    Modified video into full background video and added a new CSS file for styling.
+
+ Files/css/style.css   | 13 [32m+++++++++++++[m
+ Files/pages/tets.html |  1 [32m+[m
+ 2 files changed, 14 insertions(+)
+
+[33mcommit acb822121a57d753ce51dfcb83b56063abf9d527[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sun Aug 2 22:16:57 2026 +0700
+
+    Videos
+
+ Files/pages/tets.html | 6 [32m+++[m[31m---[m
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+[33mcommit bb5730a7d0ad3d7066f3960a594af57a04f3df41[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sun Aug 2 21:34:53 2026 +0700
+
+    Test uploading files (different types) to GitHub repository.
+
+ Files/pages/tets.html |  17 [32m+++++++++++++++++[m
+ Files/video/idk.mp4   | Bin [31m0[m -> [32m2903799[m bytes
+ 2 files changed, 17 insertions(+)
+
+[33mcommit 519c90d84f591e848d1bdce93019489ca63ae6a7[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 12:01:59 2026 +0700
+
+    Updated contact.html to include a new email address and adjusted the size of social media icons for better visibility. Also modified info.html to change the color of the "About Me" link for improved aesthetics.
+
+ Files/pages/contact.html | 5 [32m+++++[m
+ 1 file changed, 5 insertions(+)
+
+[33mcommit e24926d7e75cc91c62de9e6e8790bf3ccb3044e9[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 11:55:13 2026 +0700
+
+    Added more social media links to the contact page and updated the info page title and navigation link color.
+
+ Files/pages/contact.html  | 39 [32m++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ Files/pages/projects.html |  2 [32m+[m[31m-[m
+ 2 files changed, 39 insertions(+), 2 deletions(-)
+
+[33mcommit 09da1b14a1e931a465991633eb2d01123b4e6df2[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 11:33:44 2026 +0700
+
+    Adding more files
+
+ Files/pages/contact.html  | 33 [32m+++++++++++++++++++++++++++++++++[m
+ Files/pages/info.html     | 25 [32m++++++++++++++++++++++[m[31m---[m
+ Files/pages/projects.html | 33 [32m+++++++++++++++++++++++++++++++++[m
+ 3 files changed, 88 insertions(+), 3 deletions(-)
+
+[33mcommit 23f862a4c6e98b729a99199c1b70891062e84304[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 11:08:46 2026 +0700
+
+    Fixing
+
+ Files/pages/info.html | 5 [32m++++[m[31m-[m
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+[33mcommit adb0c099eb7cc916fd8e8ff66584e096cdef80ef[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 10:59:27 2026 +0700
+
+    Fixes file paths in index.html and info.html to ensure proper linking of favicon and info page. Updated the "Go to Info Page" button link in index.html to point to the correct location of info.html.
+
+ Files/pages/info.html | 36 [32m+++++++[m[31m-----------------------------[m
+ 1 file changed, 7 insertions(+), 29 deletions(-)
+
+[33mcommit cb2e62f9a11b9a4b5b25ed8a38176ce45db76ea5[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 10:35:51 2026 +0700
+
+    Adding files
+
+ Files/pages/info.html       |   3 [32m++[m[31m-[m
+ Files/pictures/favicon.jpeg | Bin [31m0[m -> [32m104938[m bytes
+ Files/pictures/favicon.jpg  | Bin [31m5942[m -> [32m0[m bytes
+ index.html                  |   2 [32m+[m[31m-[m
+ 4 files changed, 3 insertions(+), 2 deletions(-)
+
+[33mcommit de51f6b5d5998dfce21fb987c6b6a4a5db2d816e[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 10:29:13 2026 +0700
+
+    File rearanged: index.html -> Files/index.html
+
+ {pages => Files/pages}/info.html         |   0
+ {pictures => Files/pictures}/favicon.jpg | Bin
+ index.html                               |   4 [32m++[m[31m--[m
+ 3 files changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit bfa1a2c82a824044f742f0e9842d6965768c2e89[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 10:25:53 2026 +0700
+
+    Allocation folders
+
+ pages/info.html                                  |  39 [32m+++++++++++++++++++++++[m
+ {web/portfolio/pictures => pictures}/favicon.jpg | Bin
+ 2 files changed, 39 insertions(+)
+
+[33mcommit 84a1029f527ec8f8532d2304adfc2bc2626369e7[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 10:20:15 2026 +0700
+
+    Fix button link and favicon path in index.html
+
+ index.html | 4 [32m++[m[31m--[m
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit a5d55b2dfce31d82e86f9d3eb537f5fc5e700c10[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 10:07:13 2026 +0700
+
+    Changes
+
+ web/portfolio/index.html => index.html | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 0c3dd9f69dfa3ffa2a60b48283ba589554ebf444[m
+Author: shiki911 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 10:02:16 2026 +0700
+
+    Initial commit
+
+ web/portfolio/index.html           |  23 [32m+++++++++++++++++++++++[m
+ web/portfolio/pictures/favicon.jpg | Bin [31m0[m -> [32m5942[m bytes
+ 2 files changed, 23 insertions(+)
+
+[33mcommit 98b8f3a6ef6d3f130cc08ba0224ba072bbad444f[m
+Author: 志希 <tshikasu9911@gmail.com>
+Date:   Sat Aug 1 08:57:32 2026 +0700
+
+    Initial commit
+
+ README.md | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
