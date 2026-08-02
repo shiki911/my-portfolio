@@ -45,3 +45,23 @@
         font-size: clamp(15px,3vw,25px);
     }
 }
+
+#pages-text{
+    font-family: 'Anton', sans-serif; 
+    opacity: 0.85;    
+}
+
+#bubbles{
+    background-color: #c4930d; 
+    padding: 20px; 
+    border-radius: 15px; 
+    opacity: 0.85;    
+}
+
+#navigations{
+
+
+    buttons{
+
+    }
+}
