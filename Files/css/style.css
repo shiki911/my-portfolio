@@ -48,7 +48,11 @@
 
 #pages-text{
     font-family: 'Anton', sans-serif; 
-    opacity: 0.85;    
+    opacity: 0.85;
+
+    -webkit-text-stroke: 0.5px #c4930d;
+
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5);   
 }
 
 #bubbles{
