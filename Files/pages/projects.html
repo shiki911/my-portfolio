@@ -15,77 +15,48 @@
         <source src="../../Files/video/Projects.mp4" type="video/mp4">
     </video>
 
-    <div id="pages-text" style="display: flex; flex-direction: column; justify-content: center; margin-top: 15px; align-items: center; height: 75dvh;">
+    <div id="project-text" style="display: flex; flex-direction: column; justify-content: center; margin-top: 15px; align-items: center; height: 75dvh;">
         <h1 style="font-size: clamp(50px, 5vw, 95px);">MY PROJECTS:</h1>
-
-        <table>
-            <tr>
-                <th style="padding: 10px;">
-                    <a href="projects.html" style="position: center; color: white; text-decoration: underline;">
-                        <img 
-                            src="https://static.thenounproject.com/png/2137554-200.png" type="image/png" width="50px" height="50px" title="YouTube ・ idk0lha0" 
-                            style="pointer-events: none;">
-                        </img> 
-                    </a>       
-                </th>
-                
-                <th style="padding: 10px;"> 
-                    <a href="project-1.html" style="position: center; color: white; text-decoration: underline;">
-                        <img
-                            src="https://toppng.com/uploads/preview/arduino-logo-11609355347icxbt5jtgv.png" type="image/png" width="50px" height="50px" title="Arduino"
-                            style="cursor: pointer;">
-                        </img>
-                    </a>
-                </th>
-
-                <th style="padding: 10px;">
-                    <a href="project-2.html" style="position: center; color: white; text-decoration: underline;">
-                        <img
-                            src="https://banner2.cleanpng.com/20180427/jtw/avev9csux.webp" type="image/webp" width="50px" height="50px" title="DevC++"
-                            style="cursor: pointer;">
-                        </img>
-                    </a>
-                </th>
-
-                <th style="padding: 10px">
-                    <a href="project-3.html" style="position: center; color: white; text-decoration: underline;">
-                        <img
-                            src="https://i.pinimg.com/736x/2a/04/b8/2a04b843a366413b0d39f2c34362503a.jpg" type="image/jpg" width="50px" height="50px" title="Games"
-                            style="cursor: pointer;">
-                        </img>    
-                    </a>
-                </th>
-
-                <th style="padding: 10px">
-                    <a href="project-4.html" style="position: center; color: white; text-decoration: underline;">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVsApcLJOcDh75_-Cpha66aZDL_4fvRVMH4j27k9bn2zQTXcnQz5EH11yv&s=10" type="image" width="50px" height="50px" title="IDK"
-                            style="cursor: pointer;">
-                        </img>
-                    </a>
-                </th>
-            </tr>
-        </table>
+        
+       <div style="flex-direction: row; justify-content: center; align-items: center;">
+            <a href="project-1.html">
+                <img
+                    src="https://toppng.com/uploads/preview/arduino-logo-11609355347icxbt5jtgv.png" type="image/png" title="Arduino"
+                    style="cursor: pointer;" class="button-pro">
+                </img>
+            </a>
+            <a href="project-2.html">
+                <img
+                    src="https://banner2.cleanpng.com/20180427/jtw/avev9csux.webp" type="image/webp" title="DevC++"
+                    style="cursor: pointer;" class="button-pro">
+                </img>
+            </a>
+            <a href="project-3.html">
+                <img
+                    src="https://i.pinimg.com/736x/2a/04/b8/2a04b843a366413b0d39f2c34362503a.jpg" type="image/jpg" title="Games"
+                    style="cursor: pointer;" class="button-pro">
+                </img>    
+            </a>
+            <a href="project-4.html">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVsApcLJOcDh75_-Cpha66aZDL_4fvRVMH4j27k9bn2zQTXcnQz5EH11yv&s=10" type="image" 
+                    title="IDK" class="button-pro"
+                    style="cursor: pointer;">
+                </img>
+            </a>
+        </div>
     </div>
     
-    <div style="display: flex; justify-content: center; margin-top: 20px; justify-content: center; align-items: center;">
-        <table id="bubbles" style="border-collapse: collapse; width: 30%; color: white; background-color: #c4320d;">
-            <tr>
-                <th style="padding: 10px;">
-                    <button>
-                        <a href="info.html" style="font-size: clamp(5px, 5vw, 18px); color: black; text-decoration: none; font-family: 'Anton', sans-serif;">About Me</a>
-                    </button>
-
-                    <button>
-                        <a href="projects.html" style="font-size: clamp(5px, 5vw, 18px); color: #c4320d; text-decoration: none; font-family: 'Anton', sans-serif; pointer-events: none;">Projects</a>
-                    </button>
-
-                    <button>
-                        <a href="contact.html" style="font-size: clamp(5px, 5vw, 18px); color: black; text-decoration: none; font-family: 'Anton', sans-serif;">Contact</a> 
-                    </button>
-                </th>
-            </tr>
-        </table>
+    <div style="display: flex; justify-content: center; justify-content: center; align-items: center; font-family: 'Anton', sans-serif;">
+        <a href="info.html" class="button-p">
+            About Me
+        </a>
+        <a href="projects.html" class="button-p-c" style="pointer-events: none;">
+            Projects
+        </a>
+        <a href="contact.html" class="button-p">
+            Contact
+        </a> 
     </div>
 </body>
 </html>
